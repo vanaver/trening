@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(blue, white);
+    text-align: center;
+    background-attachment: fixed;
+}
+
+header {
+    display: inline-flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: darkblue;
+    padding: 15px 0px;
+}
+
+nav {
+    margin-right: 30px;
+}
+
+ul {
+    list-style: none;
+    display: inline-flex;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color:sandybrown;
+    font-size: 20px;
+}
+
+a:hover {
+    cursor: pointer;
+    color: brown;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    padding-left: 30px;
+}
+
+button {
+    width: 100px;
+    height: 60px;
+    border-radius: 15px;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: burlywood;
+    margin-bottom: 40px;
+}
+
+button:active {
+    color: white;
+    font-size: small;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 1.2px 1.2px 1.2px 1.2px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card {
+    width: 180px;
+    background-color: #cae5fd;
+    padding: 20px;
+    border-radius: 13px;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.icons {
+    height: 40px;
+}
