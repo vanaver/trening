@@ -51,7 +51,7 @@ button {
     font-weight: 700;
     background-color: burlywood;
     margin-bottom: 40px;
-    color: black;
+    color: red;
 }
 
 button:active {
