@@ -46,7 +46,7 @@ a:hover {
 
 .logo:hover {
     cursor: pointer;
-    box-shadow: 2px 2px 2px 2px;
+    box-shadow:black 2px 2px 2px 2px;
     color: red;
 }
 
@@ -58,17 +58,17 @@ button {
     font-weight: 700;
     background-color: burlywood;
     margin-bottom: 40px;
-    color: red;
+    color: black;
 }
 
 button:active {
     color: white;
-    font-size: small;
+    font-size: smaller;
 }
 
 button:hover {
     cursor: pointer;
-    box-shadow: 1.2px 1.2px 1.2px 1.2px;
+    box-shadow:black 1.2px 1.2px 1.2px 1.2px;
 }
 
 .cards {
@@ -85,7 +85,7 @@ button:hover {
     background-color: #cae5fd;
     padding: 20px;
     border-radius: 13px;
-    box-shadow: 1px 1px 1px 1px;
+    box-shadow: black 1px 1px 1px 1px;
 }
 
 .icons {
