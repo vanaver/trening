@@ -11,7 +11,7 @@ logo.onclick = () => {
         body.style.backgroundColor = 'darkcyan';
         card.forEach((singleCard) => {
             singleCard.style.backgroundColor = 'blue';
-            singleCard.style.color = 'red';
+            singleCard.style.color = '#7FFFD4';
         })
     } else {
         body.style.background = '';

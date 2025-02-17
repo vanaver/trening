@@ -59,16 +59,20 @@ button {
     background-color: burlywood;
     margin-bottom: 40px;
     color: black;
+    border: none;
 }
 
 button:active {
     color: white;
-    font-size: smaller;
+    font-size: 17px;
+    transform: scale(0.95);
+    box-shadow: none;
 }
 
 button:hover {
     cursor: pointer;
-    box-shadow:black 1.2px 1.2px 1.2px 1.2px;
+    transform: scale(1.1);
+    box-shadow: black 2px 2px 5px;
 }
 
 .cards {
@@ -92,4 +96,42 @@ button:hover {
     height: 40px;
 }
 
+#button2 {
+    width: 170px;
+}
 
+form {
+    width: 300px ;
+    margin: 50px auto;
+}
+
+.form_group {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+label {
+    width: 90px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+input, textarea {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 150px;
+}
+
+
+button {
+    transition: transform 0.2s ease, box-shadow 0.2s ease, font-size 0.2s ease;
+}
+
+/* При нажатии во время ховера, чтобы тень не возвращалась */
+button:hover:active {
+    box-shadow: none;
+    transform: scale(0.95);
+}
