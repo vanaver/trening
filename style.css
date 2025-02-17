@@ -51,7 +51,7 @@ a:hover {
 }
 
 button {
-    width: 100px;
+    width: 170px;
     height: 60px;
     border-radius: 15px;
     font-size: 22px;
@@ -96,10 +96,6 @@ button:hover {
     height: 40px;
 }
 
-#button2 {
-    width: 170px;
-}
-
 form {
     width: 300px ;
     margin: 50px auto;
@@ -134,4 +130,29 @@ button {
 button:hover:active {
     box-shadow: none;
     transform: scale(0.95);
+}
+
+.form2 {
+    margin: 0 auto;
+}
+
+.form1 {
+    margin-bottom: 0px;
+}
+
+.border {
+    background-color: black;
+    padding: 1px;
+    margin-bottom: 15px;
+}
+
+.response {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
 }
