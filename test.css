@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    background: linear-gradient(rgb(224, 224, 224), rgb(0, 125, 228));
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
+h1 {
+    font-weight: 1000;
+}
+
+span {
+    color: blueviolet;
+    font-size: 2.2rem;
+}
+
+section {
+    width: 100%;
+}
+
+input {
+    border: none;
+    padding: 12px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    max-width: 350px;
+    width: 100%;
+    border: 1px solid blueviolet;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    width: 100px;
+    border-radius: 15px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);    
+    transition: all 0.1s ease-in-out;
+}
+
+button:hover {
+    box-shadow: none;
+    transform: scale(1.1);
+}
+
+.task-container {
+    max-height: 500px;
+    min-height: 300px;
+    background-color:antiquewhite;
+    max-width: 450px;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 5px 5px 5px 5px;
+    border: solid blueviolet 1px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+}
+
+.task-container li {
+    border-bottom: 1px solid blueviolet;
+    padding: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: #8a2be2;
+    color: aliceblue;
+}
+
+.task-container::-webkit-scrollbar {
+    width: 8px; /* Ширина полосы прокрутки */
+}
+
+.task-container::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Цвет фона полосы прокрутки */
+    border-radius: 10px;
+}
+
+.task-container::-webkit-scrollbar-thumb {
+    background: blueviolet; /* Цвет ползунка */
+    border-radius: 10px;
+}
+
+.task-container::-webkit-scrollbar-thumb:hover {
+    background: #8a2be2; /* Цвет ползунка при наведении */
+}
+
+
